@@ -1,0 +1,20 @@
+
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: alpine
+    tag: latest
+
+inputs:
+  - name: time
+  - name: jar-file
+
+outputs:
+  - name: jar-file-renamed
+    path: jar-file-renamed
+
+run:
+  path: mv
+  args: [jar-file, "jar-file-renamed/concourse-java-maven-test-prj-{{time}}.jar"]

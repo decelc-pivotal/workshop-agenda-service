@@ -1,0 +1,56 @@
+---
+resources:
+  - name: git-repo
+    type: git
+    source:
+     uri: git@github.com:decelc-pivotal/workshop-agenda.git
+     branch: master
+     private_key: {{private-repo-key}}
+     params: {check: HEAD}
+  - name: time
+    type: time
+    source:
+      interval: 60s
+  - name: resource-deploy-web-app
+    type: cf
+    source:
+      api: {{cf-api}}
+      username: {{cf-username}}
+      password: {{cf-password}}
+      organization: {{cf-organization}}
+      space: {{cf-space}}
+      skip_cert_check: true
+
+jobs:
+  - name: maven-package
+    plan:
+    - aggregate:
+      - get: git-repo
+        trigger: true
+      - get: time
+    - task: build
+      file: git-repo/workshop-agenda-service/pipeline/maven-package.yml
+    - put: resource-deploy-web-app
+      params:
+        manifest: git-repo/workshop-agenda-service/manifest.yml
+        path: artifact-dir/workshop-agenda-service*.jar
+        
+        
+    #- task: echoJarFile
+    #  inputs: time
+    #  file: git-repo/pipeline/echoJarFile.yml
+    # - task: rename-file
+    #   file: git-repo/pipeline/rename-file.yml
+    #   attempts: 3
+
+
+
+#   - name: rename file
+#     plan:
+#     - aggregate:
+#       - get: jar-file
+#         trigger: true
+#         passed: [maven-package]
+#       - get: time
+#     - task: rename-file
+#       file: git-repo/pipeline/rename-file.yml
