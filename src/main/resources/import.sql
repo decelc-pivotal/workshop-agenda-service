@@ -19,7 +19,7 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('why-cloud-native-slides', 'cna', 'Why Build Cloud Native Applications', '','/why-cloud-native-slides/index.html','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('cna-culture-changes-slides', 'cna', 'Cloud Native Changes', '', '/cna-culture-changes-slides/index.html', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('66-continuous-delivery', 'cna', 'Continuouse Deliver', '','66-continuous-delivery.pdf', 'labs/66-lab-continuous-delivery.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('66-continuous-delivery', 'cna', 'Continuouse Deliver', '','66-continuous-delivery.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('68-cloud-native-design', 'cna', 'Cloud Native Design', '', '68-cloud-native-design.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('70-microservices', 'cna', 'Microservices', '', '70-microservices.pdf', '');
 
@@ -43,7 +43,7 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session1-cne', 'pcf101', 'Welcome to the Cloud Native Enterprise', '','Session_1_Cloud_Native_Enterprise.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session2-arch', 'pcf101', 'Pivotal Cloud Foundry Architecture and Containers', '','Session_2_Architecture.pdf','');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session2a-oper', 'pcf101', 'Pivotal Cloud Foundry Architecture and Containers', '','Session_2a_Opertions.pdf','');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session2a-oper', 'pcf101', 'Pivotal Cloud Foundry Operations', '','Session_2a_Opertions.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session3-services', 'pcf101', 'Pivotal Cloud Foundry Services', '','Session_3_Services_Overview.pdf','');
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab1-node', 'pcf101', 'Lab 1 - From Zero to Pushing Your First Application', '','','labs/pcf101/lab1/lab-node.html');
