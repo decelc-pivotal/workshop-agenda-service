@@ -11,11 +11,11 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('26-elastic-runtime', 'appdev', 'Elastic Runtime Architecture', '', '26-elastic-runtime.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('40-high-availability', 'appdev', 'High Availability', '', '40-high-availability.pdf', '');
 
-insert into content (courseID, section, title, description, slideURL, labURL) values ('56-cloud-controller-API', 'customization', 'Cloud Controller API', '','56-cloud-controller-API.pdf','labs/56-lab-cloud-controller-API.html');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('58-service-broker', 'customization', 'Service Brokers', '', '58-service-brokers.pdf', 'labs/58-lab-service-brokers.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('56-cloud-controller-API', 'customization', 'Cloud Controller API', '','56-cloud-controller-API.pdf','');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('58-service-broker', 'customization', 'Service Brokers', '', '58-service-brokers.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('59-oauth-primer', 'customization', 'OAuth Primer', '','59-oauth-primer.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('60-security-and-sso', 'customization', 'Security and SSO', '', '60-security-and-sso.pdf','labs/60-lab-security-and-sso.html');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('62-buildpacks', 'customization', 'Buildpacks', '', '62-buildpacks.pdf', 'labs/62-lab-buildpacks.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('62-buildpacks', 'customization', 'Buildpacks', '', '62-buildpacks.pdf', '');
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('why-cloud-native-slides', 'cna', 'Why Build Cloud Native Applications', '','/why-cloud-native-slides/index.html','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('cna-culture-changes-slides', 'cna', 'Cloud Native Changes', '', '/cna-culture-changes-slides/index.html', '');
