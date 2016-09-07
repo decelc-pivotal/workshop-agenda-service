@@ -41,9 +41,10 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('90-more-information', 'more', 'Course Introduction', '','90-more-information.pdf','');
 
 
-insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session1-cne', 'pcf101', 'Welcome to the Cloud Native Enterprise', '','Session_1_Cloud_Native_Enterprise','');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session2-arch-oper', 'pcf101', 'Pivotal Cloud Foundry Architecture and Containers', '','Session_2_Architecture_And_Operations','');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session3-services', 'pcf101', 'Pivotal Cloud Foundry Services', '','Session_3_Services_Overview','');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session1-cne', 'pcf101', 'Welcome to the Cloud Native Enterprise', '','Session_1_Cloud_Native_Enterprise.pdf','');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session2-arch', 'pcf101', 'Pivotal Cloud Foundry Architecture and Containers', '','Session_2_Architecture.pdf','');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session2a-oper', 'pcf101', 'Pivotal Cloud Foundry Architecture and Containers', '','Session_2a_Opertions.pdf','');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session3-services', 'pcf101', 'Pivotal Cloud Foundry Services', '','Session_3_Services_Overview.pdf','');
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab1-node', 'pcf101', 'Lab 1 - From Zero to Pushing Your First Application', '','','labs/pcf101/lab1/lab-node.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab1-ruby', 'pcf101', 'Lab 1 - From Zero to Pushing Your First Application', '','','labs/pcf101/lab1/lab-ruby.html');
