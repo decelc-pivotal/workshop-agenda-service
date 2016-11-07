@@ -14,36 +14,37 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('56-cloud-controller-API', 'customization', 'Cloud Controller API', '','56-cloud-controller-API.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('58-service-broker', 'customization', 'Service Brokers', '', '58-service-brokers.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('59-oauth-primer', 'customization', 'OAuth Primer', '','59-oauth-primer.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('60-security-and-sso', 'customization', 'Security and SSO', '', '60-security-and-sso.pdf','labs/60-lab-security-and-sso.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('60-security-and-sso', 'customization', 'Security and SSO', '', '60-security-and-sso.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('62-buildpacks', 'customization', 'Buildpacks', '', '62-buildpacks.pdf', '');
 
-insert into content (courseID, section, title, description, slideURL, labURL) values ('why-cloud-native-slides', 'cna', 'Why Build Cloud Native Applications', '','/why-cloud-native-slides/index.html','');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('cna-culture-changes-slides', 'cna', 'Cloud Native Changes', '', '/cna-culture-changes-slides/index.html', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('66-continuous-delivery', 'cna', 'Continuouse Deliver', '','66-continuous-delivery.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('why-cloud-native-slides', 'cna', 'Why Build Cloud Native Applications', '','63-why-cloud-native-apps.pdf','');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('cna-culture-changes-slides', 'cna', 'Cloud Native Changes', '', '64-cna-changes.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('66-continuous-delivery', 'cna', 'Continuous Deliver', '','66-continuous-delivery.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('68-cloud-native-design', 'cna', 'Cloud Native Design', '', '68-cloud-native-design.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('70-microservices', 'cna', 'Microservices', '', '70-microservices.pdf', '');
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('spring-boot-requirements', 'boot', 'Lab Requirements', '','','/spring-boot-primer/requirements');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('spring-boot-labs-setup', 'boot', 'Lab Setup', '', '', '/spring-boot-primer/labs-setup');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('spring-boot-labs-setup', 'boot', 'Lab Setup', '', '', 'labs/Spring Boot Labs Setup.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('80-cs-spring-boot-basics', 'boot', 'Spring Boot Basics', '','80-cs-spring-boot-basics.pdf', 'labs/80-spring-boot-basics-lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('82-cs-spring-boot-adv', 'boot', 'Spring Boot Going Further', '', '82-cs-spring-boot-adv.pdf','labs/82-cs-spring-boot-adv-lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('actuator', 'boot', 'Spring Boot Actuator', '', '83-spring-boot-actuator.pdf', 'labs/83-spring-boot-primer-actuator-lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('spring-data-rest', 'boot', 'Spring Boot with Spring Data Rest', '', '84-spring-data-rest.pdf', 'labs/84-spring-data-rest-lab.html');
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('scs-requirements', 'scs', 'Lab Requirements', '','','/spring-cloud-services/requirements/index.html');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('scs-labs-setup', 'scs', 'Lab Setup', '', '', '/spring-cloud-services/labs-setup');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('scs-labs-setup', 'scs', 'Lab Setup', '', '', 'labs/Spring Cloud Services Labs Setup.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('config', 'scs', 'Spring Cloud Config', '','85-spring-cloud-config.pdf', 'labs/85-spring-cloud-config-lab.html');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('service-discovery', 'scs', 'Spring Cloud Netflix - Service Discover', '', '86-spring-cloud-netflix-service-discovery.pdf','labs/86-spring-cloud-netflix-service-discovery-lab.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('service-discovery', 'scs', 'Spring Cloud Netflix - Service Discovery', '', '86-spring-cloud-netflix-service-discovery.pdf','labs/86-spring-cloud-netflix-service-discovery-lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('client-slide-load-balancing', 'scs', 'Spring Cloud Netflix - Client Side Load Balancing', '', '87-spring-cloud-netflix-client-side-load-balancing.pdf', 'labs/87-spring-cloud-netflix-client-side-load-balancing-lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('circuit-breakers', 'scs', 'Spring Cloud Netflix - Circuit Breakers', '', '88-spring-cloud-netflix-circuit-breakers.pdf', 'labs/88-spring-cloud-netflix-circuit-breakers-lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('circuit-breaker-metric-aggregation', 'scs', 'Spring Cloud Netflix - Circuit Breaker Metric Aggregation', '', '89-spring-cloud-netflix-circuit-breaker-metric-aggregation.pdf', 'labs/89-spring-cloud-netflix-circuit-breaker-metric-aggregation-lab.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('springcloud-dataflow', 'scs', 'Spring Cloud Data Flow', '', 'springcloud_dataflow.pdf', '');
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('90-more-information', 'more', 'Course Introduction', '','90-more-information.pdf','');
 
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session1-cne', 'pcf101', 'Welcome to the Cloud Native Enterprise', '','Session_1_Cloud_Native_Enterprise.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session2-arch', 'pcf101', 'Pivotal Cloud Foundry Architecture and Containers', '','Session_2_Architecture.pdf','');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session2a-oper', 'pcf101', 'Pivotal Cloud Foundry Operations', '','Session_2a_Opertions.pdf','');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session2a-oper', 'pcf101', 'Pivotal Cloud Foundry Operations', '','Session_2a_Operations.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session3-services', 'pcf101', 'Pivotal Cloud Foundry Services', '','Session_3_Services_Overview.pdf','');
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab1-node', 'pcf101', 'Lab 1 - From Zero to Pushing Your First Application', '','','labs/pcf101/lab1/lab-node.html');

@@ -10,5 +10,5 @@ applications:
   - service-registry
 env:
   SPRING_PROFILES_ACTIVE: pcf
-  CF_TARGET: https://api.run.pivotal.io
+  CF_TARGET: https://api.run.haas-67.pez.pivotal.io
 
