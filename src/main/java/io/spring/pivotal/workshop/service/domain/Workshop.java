@@ -3,12 +3,14 @@ package io.spring.pivotal.workshop.service.domain;
 import java.util.List;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 @ConfigurationProperties(prefix = "workshop")
+@RefreshScope
 @Component
 public class Workshop {
-	
+
 	private String title;
 	private String description;
 	private String date;
@@ -49,7 +51,7 @@ public class Workshop {
 	public void setCustomerLogo(String customerLogo) {
 		this.customerLogo = customerLogo;
 	}
-	
+
 	public String getContentURL() {
 		return contentURL;
 	}
@@ -81,7 +83,7 @@ public class Workshop {
 	public void setSessions(List<Session> sessions) {
 		this.sessions = sessions;
 	}
-	
+
 	public static class Resource {
 
 		private String title;
@@ -94,7 +96,6 @@ public class Workshop {
 
 		public Resource() {
 		}
-
 
 		public String getTitle() {
 			return title;
