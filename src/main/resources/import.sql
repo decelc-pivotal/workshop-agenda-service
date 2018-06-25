@@ -1,15 +1,22 @@
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-agenda', 'pd', 'Agenda', '','pe/0-agenda.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-cf', 'pd', 'Cloud Foundry Overview', '','pe/1-Intro.pdf','');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-cfa', 'pd', 'Cloud Foundry Architecture', '', 'pe/2-architecture.pdf', 'pe/lab1.txt');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-services', 'pd', 'Services', '','pe/3-services.pdf', 'pe/lab2.txt');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-osbapi', 'pd', 'Service Brokers', '', 'pe/4-service-broker.pdf','pe/lab3.txt');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-cfa', 'pd', 'Cloud Foundry Architecture', '', 'pe/2-architecture.pdf', 'pe/lab1.pdf');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-services', 'pd', 'Services', '','pe/3-services.pdf', 'pe/lab2.pdf');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-osbapi', 'pd', 'Service Brokers', '', 'pe/4-service-broker.pdf','pe/lab3.pdf');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-bosh', 'pd', 'BOSH', '', 'pe/5-bosh.pdf', 'pe/lab4-bosh.txt');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-what-is-pks', 'pd', 'What is PKS', '', 'pe/6-1-what-is-pks.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-pks', 'pd', 'PKS', '', 'pe/6-PKS.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-setup-pks-cluster', 'pd', 'Setup PKS Cluster', '', 'pe/6-2-setup-pks-cluster.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-kubernetes', 'pd', 'Kubernetes', '', 'pe/6-3-kubernetes.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-pks-app-deploy', 'pd', 'PKS Application Deployment', '', 'pe/6-4-pks-app-deployment.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-helm', 'pd', 'Helm', '', 'pe/6-5-helm.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-kibosh', 'pd', 'Kibosh', '', 'pe/6-6-kibosh.pdf', '');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-pks-k8s-lab', 'pd', 'K8s', '', '', 'pe/6-k8s-lab.pdf');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-pks-helm-lab', 'pd', 'Helm', '', '', 'pe/6-helm-lab.pdf');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-pks-kibosh-lab', 'pd', 'Kibosh', '', '', 'pe/6-kibosh-lab.pdf');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pd-building-tiles', 'pd', 'Building Tiles for Fun & Profit', '', 'pe/Day_2 _Building_Tiles.pdf', '');
+
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pks-workshop-morning', 'pe', 'PKS: Demo first, theory later!', '', 'pe/PKS_workshop_morning.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pks-workshop-afternoon', 'pe', 'PKS: After lunch', '', 'pe/PKS_workshop_afternoon.pdf', '');
